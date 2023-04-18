@@ -48,12 +48,14 @@
     }
 }
 
+
 .consultation {
     min-height: 613px;
     padding: 68px 0 60px 30px;
 }
 }
 @media (max-width: 991px) {
+
 .header {
     
     padding: 20px 10px 0 10px;
@@ -104,14 +106,21 @@
 }
 .feed-form {
     margin: 10px auto;
+}
 .button {
     width: 300px;
+
 }
-}
+
+.catalog {
+    &__content {
+        justify-content:space-around ;
+        }
+    
+    }
 }
 
 
- 
 @media (max-width: 767px) {
 
 .advantages {
@@ -120,5 +129,12 @@
         align-items: center;
     }
 }
+.catalog {
+    &__content {
+        justify-content: space-around;
+        
+    }
+}
+
 }
 
