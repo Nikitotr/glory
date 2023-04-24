@@ -121,8 +121,16 @@
 }
 
 
-@media (max-width: 767px) {
 
+@media (max-width: 767px) {
+.header {
+    &__phone {
+        text-align: center;
+    }
+    &__official {
+        display: none;
+    }
+}
 .advantages {
     &__icons {
         flex-direction: column;
@@ -133,6 +141,24 @@
     &__content {
         justify-content: space-around;
         
+    }
+}
+.carousel {
+    &__inner {
+        width: 540px;
+    }
+}
+.slick-slide {
+    img {
+        max-width: 500px;
+    }
+}
+.footer {
+    &__info {
+        margin-top: 360px;
+        height: 235px;
+        width: 377px;
+        padding: 34px;
     }
 }
 
